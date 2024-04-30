@@ -7,10 +7,7 @@ import io.cucumber.java.en.When;
 import org.junit.Assert;
 import pages.CartPage;
 import pages.ProductsPage;
-import utilities.ConfigReader;
-import utilities.WaitHelper;
 
-import java.util.List;
 
 public class ProductsSteps {
     CartPage cartPage = new CartPage();
