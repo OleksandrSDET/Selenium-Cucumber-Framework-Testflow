@@ -1,0 +1,20 @@
+package base;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+import utilities.Driver;
+
+public abstract class BasePage {
+    protected WebDriver driver;
+
+    public BasePage() {
+        this.driver = Driver.getInstance().getDriver();
+        PageFactory.initElements(driver, this);
+    }
+
+
+    public abstract void loadPage();
+
+}
