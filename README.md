@@ -15,7 +15,7 @@ The framework has a built-in **retry** functionality. If a test case fails unexp
 ## **Setup & Installation**
 1. First, install [Java](https://www.oracle.com/java/technologies/downloads/) and set the path in your environment variables.
 2. Install [Maven](https://maven.apache.org/install.html) and set its path in your environment variables.
-3. Clone the project from [this link](https://github.com/).
+3. Clone the project from [this link](https://github.com/OleksandrSDET/Selenium-Cucumber-Framework-Testflow.git).
 4. Import the cloned project into your preferred IDE.
 
 ## **Running the Tests**
